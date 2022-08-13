@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../dist/styles.css" />
+    <link rel="shortcut icon" href="../assets/logo.png" />
+    <script src="../app/globals.js" defer></script>
+    <title>HTMedia</title>
+  </head>
+  <body>
+    <nav class="navbar__container">
+      <h1 class="navbar__container_title">HTMedia</h1>
+      <button class="navbar__container_action-buttons_container-button" data-btn-home>Home</button>
+      <button class="navbar__container_action-buttons_container-button" data-btn-create>Create</button>
+      <div class="navbar__container_action-buttons_container">
+        <button class="navbar__container_action-buttons_container-button" data-btn-unsupported>Register</button>
+        <button class="navbar__container_action-buttons_container-button" data-btn-unsupported>Login</button>
+      </div>
+    </nav>
+    <div class="login-form__container">
+      <form class="login-form__container_form">
+        <h1 class="login-form__container_form-title">Log in</h1>
+        <h2 class="login-form__container_form-subtitle">
+          Use a local account to log <br />
+          in.
+        </h2>
+        <div class="login-form__container_form-input_container">
+          <label for="email">Email</label>
+          <input id="email" type="email" class="login-form__container_form-input_container_input" />
+          <label for="password">Password</label>
+          <input id="password" type="password" class="login-form__container_form-input_container_input" />
+          <div class="login-form__container_form-input_container-checkbox_container">
+            <input type="checkbox" name="rememberMe" id="rememberMe" />
+            <p class="login-form__container_form-input_container-checkbox_container-checkbox_message">Remember me?</p>
+          </div>
+          <button type="button" class="login-form__container_form-input_container-submit">
+            Log in
+          </button>
+          <a href="#" class="login-form__container_form-input_container_extra-message">Forgot your password?</a>
+        </div>
+      </form>
+      <div class="login-form__container_other-service">
+        <h2 class="login-form__container_other-service_title">Use another service to log in.</h2>
+        <p class="login-form__container_other-service_description">
+          there are no external authentication services configured. This <br />
+          login page is not functional and is not yet implemented to create <br />
+          real users or login them.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

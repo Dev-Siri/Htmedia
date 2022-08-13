@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../assets/logo.png" />
+    <link rel="stylesheet" href="../dist/styles.css" />
+    <script src="../app/globals.js" defer></script>
+    <script type="module" src="../app/create.js" defer></script>
+    <title>HTMedia</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar__container">
+      <h1 class="navbar__container_title">HTMedia</h1>
+      <button class="navbar__container_action-buttons_container-button" data-btn-home>Home</button>
+      <button class="navbar__container_action-buttons_container-button" data-btn-create>Create</button>
+      <div class="navbar__container_action-buttons_container">
+        <button class="navbar__container_action-buttons_container-button" data-btn-unsupported>Register</button>
+        <button class="navbar__container_action-buttons_container-button" data-btn-unsupported>Login</button>
+      </div>
+    </nav>
+    <!-- Navbar -->
+
+    <div class="post-form__container">
+      <form class="post-form__container_form">
+        <h1 class="post-form__container_form-subtitle">
+          Post
+        </h1>
+        <div class="login-form__container_form-input_container">
+          <label for="username">Username</label>
+          <input data-input-username id="username" type="text" class="login-form__container_form-input_container_input" />
+          <label for="title">Title</label>
+          <input data-input-title id="title" type="text" class="login-form__container_form-input_container_input" />
+          <label for="description">Description</label>
+          <input data-input-description id="description" type="text" class="login-form__container_form-input_container_input" />
+          <button data-btn-create-post type="button" class="login-form__container_form-input_container-submit">
+            Create
+          </button>
+          <a href="/" class="login-form__container_form-input_container_extra-message">Back to list</a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="The social media website made with HTML, SCSS and Javascript with Node.js and Mongodb backend" />
+    <meta name="theme-color" />
+    <link rel="stylesheet" href="./dist/styles.css" />
+    <link rel="shortcut icon" href="assets/logo.png" />
+    <link rel="manifest" href="manifest.json" />
+    <script src="./app/globals.js" defer></script>
+    <script type="module" src="./app/home.js" defer></script>
+    <title>HTMedia</title>
+  </head>
+  <body>
+    <nav class="navbar__container">
+      <h1 class="navbar__container_title">HTMedia</h1>
+      <button class="navbar__container_action-buttons_container-button" data-btn-home>Home</button>
+      <button class="navbar__container_action-buttons_container-button" data-btn-create>Create</button>
+      <div class="navbar__container_action-buttons_container">
+        <button class="navbar__container_action-buttons_container-button" data-btn-unsupported>Register</button>
+        <button class="navbar__container_action-buttons_container-button" data-btn-unsupported>Login</button>
+      </div>
+    </nav>
+    <div class="home__container">
+      <h1 class="home__container_title">Index</h1>
+      <a href="/views/Create.html" class="home__container_link">Create New</a>
+      <table class="home__container_table" id="table">
+        <tr>
+          <th class="home__container_table_head">Title</th>
+          <th class="home__container_table_head">Description</th>
+          <th class="home__container_table_head">User</th>
+        </tr>
+      </table>
+    </div>
+    <script>
+      if('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('service-worker.js');
+      }
+    </script>
+  </body>
+</html>

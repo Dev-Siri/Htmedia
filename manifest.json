@@ -1,0 +1,15 @@
+{
+    "short_name": "Htmedia",
+    "name": "HTML Media",
+    "icons": [
+        {
+            "src": "/assets/logo.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": "/index.html",
+    "background-color": "rgba(255, 255, 255, 0)",
+    "display": "standalone",
+    "theme_color": "rgba(255, 255, 255, 0)"
+}

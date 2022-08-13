@@ -1,0 +1,46 @@
+@import 'utils/mixins';
+@import 'utils/variables';
+
+.navbar__container {
+  display: flex;
+  height: 45px;
+  padding: 10px;
+  align-items: center;
+  background: white;
+  @include SmallBoxShadow;
+
+  &_action-buttons_container {
+    width: 13%;
+    margin-left: auto;
+    display: flex;
+
+    &-button {
+      background: transparent;
+      color: black;
+      border: none;
+      border-radius: 5px;
+      padding: 8px;
+      width: 60px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      font-family: $font;
+      cursor: pointer;
+      transition: 250ms;
+      text-align: center;
+      justify-content: center;
+      margin-left: 20px;
+      font-size: 16px;
+
+      &:hover { color: $warm-gray; }
+    }
+  }
+
+  &_logo { height: 80px; }
+
+  &_title {
+    margin-left: 20px;
+    font-size: 28px;
+    font-weight: 400;
+  }
+}
