@@ -1,6 +1,6 @@
 # HTMedia
 
-Htmedia is a small extremely limited social media app that allows you to do **JUST** see and create posts. The biggest reason for this limitation is that the app's front-end itsef is built with HTML, SCSS and Javascript. Yep, no React, no Angular, not Front end framework. Although it is using SCSS because life is too short to write Plain CSS for a "big" project man. Well, If **YOU** want to try this extremely limited web app that can run on the Nintendo 64, then you can look into its source code in the <a href="#installation">installation</a> section
+Htmedia is a small extremely limited social media app that allows you to do **JUST** see and create posts. The biggest reason for this limitation is that the app's front-end itsef is built with HTML, SCSS and Javascript. Yep, no React, no Angular, no Front end framework. But I guess no framework === Blazingly Fast page loads that is also SEO Friendly. You just have to suffer with vanilla Javascript.It is using SCSS because life is too short to write Plain CSS for a "big" project man. Well, If **YOU** want to try this extremely limited web app that can run on the Nintendo 64, then you can look into its source code in the <a href="#installation">installation</a> section.
 
 <h2 id="installation">Installation</h2>
 
@@ -18,4 +18,4 @@ Then you have to install the '*Live server*' extension in VS Code or make your o
 
 #### `}`
 
-You can also see the deploy version [here]().
+You can also see the deploy version [here](https://ht-media.netlify.app).
