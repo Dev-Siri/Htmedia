@@ -7,7 +7,7 @@ Htmedia is a small extremely limited social media app that allows you to do **JU
 First clone the project with git.
 
 ```console
-$ git clone someurl 
+$ git clone https://github.com/Dev-Siri/Htmedia.git
 ```
 
 Then you have to install the '*Live server*' extension in VS Code or make your own Node.js Server.
